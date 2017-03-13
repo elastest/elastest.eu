@@ -1,0 +1,111 @@
+--- 
+layout: default 
+title: ElasTest Contact 
+active: contact 
+section-title: Contact
+section-icon:  mdi mdi-contact-mail
+---
+
+<section class="section-top-98 section-sm-top-110">
+  <div class="shell">
+    <h2 class="h1">Contact with us</h2>
+    <hr class="divider bg-orange">
+  </div>
+  <!-- Contact Us-->
+  <section>
+    <div class="shell-fluid">
+      <div class="range range-xs-center text-sm-left offset-top-50">
+        <div class="cell-xs-10 cell-sm-8 cell-md-8 cell-xl-6 text-left">
+          <p><strong>Francisco Gortázar</strong> is the Elastest project coordinator. You can contact to him if you want any futher information about ElasTest.</p>
+        </div>
+      </div>
+      <div class="range range-xs-center text-sm-left offset-top-50">
+        <div class="cell-xs-10 cell-sm-8 cell-md-8 cell-lg-5 cell-xl-4">
+          <!-- RD Mailform-->
+          <form data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php" class="rd-mailform text-left">
+            <div class="range">
+              <div class="cell-lg-6">
+                <div class="form-group">
+                  <label for="contact-me-name" class="form-label">Name</label>
+                  <input id="contact-me-name" type="text" name="name" data-constraints="@Required" class="form-control">
+                </div>
+              </div>
+              <div class="cell-lg-6 offset-top-20 offset-lg-top-0">
+                <div class="form-group">
+                  <label for="contact-me-phone" class="form-label">Phone</label>
+                  <input id="contact-me-phone" type="text" name="phone" data-constraints="@Required" class="form-control">
+                </div>
+              </div>
+              <div class="cell-lg-12 offset-top-20 offset-lg-top-30">
+                <div class="form-group">
+                  <label for="contact-me-email" class="form-label">E-Mail</label>
+                  <input id="contact-me-email" type="email" name="email" data-constraints="@Required @Email" class="form-control">
+                </div>
+              </div>
+              <div class="cell-lg-12 offset-top-20 offset-lg-top-30">
+                <div class="form-group">
+                  <label for="contact-me-message" class="form-label">Message</label>
+                  <textarea id="contact-me-message" name="message" data-constraints="@Required" style="height: 150px" class="form-control"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="range range-xs-center range-lg-left text-center text-lg-left offset-top-30">
+              <div class="cell-xs-8 cell-sm-6">
+                <button type="submit" class="btn btn-lg btn-block btn-primary">send message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="cell-xs-10 cell-sm-8 cell-md-8 cell-lg-3 cell-xl-2 offset-top-50 offset-lg-top-0">
+          <div class="inset-xl-right-20 text-center text-lg-left">
+            <address class="contact-info reveal-sm-inline-block text-left">
+              <div class="unit unit-spacing-sm unit-horizontal p">
+                <div class="unit-left"><span class="icon icon-xxs fa fa-map-marker"></span></div>
+                <div class="unit-body">
+                  <p><strong>Rey Juan Carlos University</strong></p>
+                  <p>Calle tulipán s/n. 28933 Móstoles (Madrid)</p>
+                  <p>Spain</p>
+
+
+                </div>
+              </div>
+              <div class="p unit unit-spacing-xs unit-horizontal offset-top-20">
+                <div class="unit-left"><span class="icon icon-xxs fa fa-phone"></span></div>
+                <div class="unit-body"><a href="callto:91 488 8065">91 488 8065</a></div>
+              </div>
+              <div class="p unit unit-spacing-xs unit-horizontal offset-top-10">
+                <div class="unit-left"><span class="icon icon-xxs fa fa-envelope"></span></div>
+                <div class="unit-body"><a href="mailto:#">francisco.gortazar@urjc.es</a></div>
+              </div>
+            </address>
+          </div>
+          <div class="text-center text-lg-left offset-top-30">
+            <ul class="list-inline">
+              <li>
+                <a href="#" class="icon fa fa-twitter icon-xxs icon-circle icon-darkest-filled"><span class="hidden">Twitter</span></a>
+              </li>
+              <li>
+                <a href="#" class="icon fa fa-github icon-xxs icon-circle icon-darkest-filled"><span class="hidden">GitHub</span></a>
+              </li>
+              <li>
+                <a href="#" class="icon fa fa-linkedin icon-xxs icon-circle icon-darkest-filled"><span class="hidden">LinkedIn</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section RD Google Map-->
+  <section class="offset-top-98">
+    <!-- RD Google Map-->
+    <div class="rd-google-map">
+      <div id="rd-google-map" data-zoom="10" data-x="-3.8759823" data-y="40.3355012" data-styles='[{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":60}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","stylers":[{"visibility":"on"},{"lightness":30}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ef8c25"},{"lightness":40}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#b6c54c"},{"lightness":40},{"saturation":-40}]},{}]' class="rd-google-map__model"></div>
+      <ul class="rd-google-map__locations">
+        <li data-x="-3.8759823" data-y="40.3355012">
+          <p>Calle tulipán s/n. 28933 Móstoles (Madrid)</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+</section>
