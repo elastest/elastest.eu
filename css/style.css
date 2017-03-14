@@ -35473,6 +35473,13 @@ ul {
   li, p{
     text-align: justify;
   }
+
+  .clearboth-xs {
+  clear: both; }
+
+  .floatnone-xs{
+    float: none !important;
+  }
 }
 
 #title-header{
@@ -35484,6 +35491,10 @@ ul {
   #title-header{
     padding-top:11vmin;
   }
+   .marginimage-sm{
+     margin-left: 10px;
+     margin-bottom: 10px;
+   }
 }
 
 @media (min-width: 1366px) {
