@@ -1676,7 +1676,7 @@ th {
   text-align: left; }
 
 .table {
-  width: 100%;
+  width: 99%;
   max-width: 100%;
   margin-bottom: 24px; }
   .table > thead > tr > th,
@@ -23996,10 +23996,10 @@ html .page .offset-top-124 {
   background-color: #f7f7f7; }
 
 .table-striped tbody tr:first-child {
-  background-color: transparent; }
-  .table-striped tbody tr:first-child th {
-    border-top: none;
-    border-bottom: 2px solid #d9d9d9; }
+  /* background-color: transparent; */ }
+.table-striped tbody tr:first-child th {
+  border-top: none;
+  border-bottom: 2px solid #d9d9d9; }
 
 .table.table-shopping-cart > thead > tr > td {
   padding-top: 20px;
