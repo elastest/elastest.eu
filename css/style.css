@@ -1689,8 +1689,10 @@ th {
     line-height: 1.5;
     vertical-align: top;
     border: 1px solid #ddd;
-    text-align: center;
      }
+  .table > tbody > tr > td{
+    text-align: center;
+  }
   .table > thead > tr > th {
     vertical-align: bottom;
     border-bottom: 2px solid #ddd;
