@@ -24001,7 +24001,8 @@ html .page .offset-top-124 {
   /* background-color: transparent; */ }
 .table-striped tbody tr:first-child th {
   border-top: none;
-  border-bottom: 2px solid #d9d9d9; }
+  border-bottom: 2px solid #d9d9d9; 
+  text-align: left;}
 
 .table.table-shopping-cart > thead > tr > td {
   padding-top: 20px;
