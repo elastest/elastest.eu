@@ -7932,6 +7932,16 @@ html.lt-ie-10 .range > [class*="cell-lg-preffix-"] {
   width: 60px;
   height: 3px; }
 
+.divider.divider-75{
+  width: 75%;
+}
+.divider.divider-95{
+  width: 95%;
+}
+.divider.divider-100{
+  width: 100%;
+}
+
 .hr-auto {
   margin-left: auto;
   margin-right: auto; }
@@ -35511,4 +35521,9 @@ ul {
 
 #page-title{
     margin-top: 0px;
+}
+
+
+#deliverables-desc img{
+  width: 100%;
 }
