@@ -5,8 +5,15 @@ You can clone this repository and edit any page with a simple text editor.
 ```
 git clone git@github.com:elastest/elastest.eu.git
 ```
-If you want to preview the changes in local before commiting, you can execute the following command in the root folder of the repository (you need [Docker](https://www.docker.com/) installed) and open the browser in `http://localhost:4000`:
+If you want to preview the changes in local before commiting, you can execute the following command in the root folder of the repository (you need [Docker](https://www.docker.com/) installed): 
 ```
-docker run --rm --label=jekyll --volume="$(pwd)":/srv/jekyll -it -p 127.0.0.1:4000:4000 jekyll/jekyll:2.4 bundle exec jekyll serve
+sudo docker run --rm --label=jekyll --volume="$(pwd)":/srv/jekyll -it -p 127.0.0.1:4000:4000 jekyll/jekyll:3.8 /bin/bash
 ```
+In the bash exec the following commands:
+```
+$ bundle install
+$ jekyll serve
+```
+and open the browser in `http://localhost:4000`.
+
 To update the web page, commit and push your changes. Then, GitHub will update the web [elastest.eu](http://elastest.eu) automatically.
