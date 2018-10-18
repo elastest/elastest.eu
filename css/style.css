@@ -24005,6 +24005,11 @@ html .page .offset-top-124 {
     /*.table th:nth-child(n+2), .table td:nth-child(n+2) {
       padding-left: 56px; }*/ }
 
+.table-risk tbody tr > th, .table-risk tbody  tr > td  {
+    text-align: center !important;
+    vertical-align: middle;
+  }
+
 .table-striped tbody tr:nth-of-type(odd) {
   background-color: #f7f7f7; }
 
